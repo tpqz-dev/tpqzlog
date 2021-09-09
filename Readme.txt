@@ -13,4 +13,4 @@ the log content is in the logzb.txt file, modify the script to change the path (
 download mtail & consult doc: 
 http://ophilipp.free.fr/op_tail.htm
 
-Tpqz.
+https://www.artstation.com/tpzq
