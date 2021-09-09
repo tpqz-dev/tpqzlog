@@ -8,7 +8,7 @@ Description : a basic log system for zbrush
 - use the "test logs" button to write hello world in the log
 - use the "test array logs" to log an array content
 
-the log content is wrote in the logzb.txt file
+the log content is in the logzb.txt file, modify the script to change the path (see in the include folder)
 
 download mtail & consult doc: 
 http://ophilipp.free.fr/op_tail.htm
