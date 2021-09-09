@@ -1,0 +1,7 @@
+[vardef,LOGPATH,  [FileNameResolvePath,"logzb.txt"]]
+[vardef,MTAILPATH, [FileNameResolvePath,"software\mTail.exe"]]
+[vardef,ZFILEUTILDLL, [FileNameResolvePath,"dll\ZFileUtils64.dll"]]
+[VarDef,ZBCDLL, [FileNameResolvePath,"dll\tpqzlog.dll"]]
+[vardef,DLLFUNCTION, "LaunchAppWithFile"]
+[VarDef,NEWLINE,[StrMerge,[StrFromAsc,13],[StrFromAsc,10]]]
+[vardef,QUOTES,[StrFromAsc,34]]

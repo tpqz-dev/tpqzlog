@@ -1,0 +1,25 @@
+
+// include this on top of your scripts, also copy the dll and executable folders
+<zscriptinsert,"include\required.txt">
+<zscriptinsert,"include\TpqzLog.txt">
+
+[VarDef,LOGPATH, [FileNameResolvePath,"logzb.txt"]] 
+[IButton,"launch log viewer","logs",
+[RoutineCall,launchLogExecutable,MTAILPATH,LOGPATH ] // dont forget to download and place in the software folder http://ophilipp.free.fr/op_tail.htm
+//[RoutineCall,launchLogExecutable, "C:\Program Files (x86)\Notepad++\notepad++.exe",LOGPATH] // altenative application
+,,150,,,50]
+[pd]
+
+[IButton,"test logs","logs",
+// make a simple log
+[RoutineCall,LogMessage, [StrMerge, "a message ","Hello world !!!"]]
+,,150,,,50]
+
+[IButton,"test array logs","logs",
+[varDef,anArray(4)]
+[varSet,anArray(0),"Mr Fantastic"]
+[varSet,anArray(1),"Invisible Woman"]
+[varSet,anArray(2),"The thing"]
+[varSet,anArray(3),"The human torch"]
+[RoutineCall,ListLogArray, anArray]
+,,150,,,50]
